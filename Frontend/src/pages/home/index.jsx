@@ -21,6 +21,7 @@ const Home = () => {
 
     return (
         <div className='home'>
+            <div style={{display:none}}>Teste de deploy</div>
             <header className='relative mb-8'>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10">
                     <h1 className="text-2xl md:text-3xl xl:text-5xl font-bold">A Arca do Cerrado</h1>
