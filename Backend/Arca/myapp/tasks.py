@@ -33,8 +33,8 @@ def enviar_email_postagem(postagem_id):
     # Enviar e-mail para cada inscrito
     for inscrito in inscritos:
         subject = 'Nova Postagem no Blog'
-        msg = EmailMultiAlternatives(subject, strip_tags(html_content), 'testearca092@gmail.com', [inscrito.email])
-
+        msg = EmailMultiAlternatives(subject, strip_tags(html_content), 'arcadocerrado.ufscar@gmail.com', [inscrito.email])
+        
         # Anexar a imagem
         with open(post_path, 'rb') as f:
             msg_image = MIMEImage(f.read())

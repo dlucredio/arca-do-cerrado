@@ -31,6 +31,12 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DJANGO_DEBUG', 'False').lower() == 'true'
 
+# Configurações para garantir que tudo use HTTPS
+SECURE_SSL_REDIRECT = True  # Redireciona HTTP para HTTPS automaticamente
+SESSION_COOKIE_SECURE = True  # Cookies de sessão apenas via HTTPS
+CSRF_COOKIE_SECURE = True  # Cookies CSRF apenas via HTTPS
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')  # Indica que o proxy usa HTTPS
+
 ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
 
 CORS_ALLOWED_ORIGINS = os.getenv('DJANGO_CORS_ALLOWED_ORIGINS', '').split(',')

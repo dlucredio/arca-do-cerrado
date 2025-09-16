@@ -29,12 +29,17 @@ const Search = () => {
         return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     };
 
-    const filterSpecies = (species) =>
-        removeAccents(species.apelido).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
-        removeAccents(species.resumo).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
-        removeAccents(species.nome_cientifico).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
-        removeAccents(species.texto).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
-        (species.imagens && species.imagens.tags && removeAccents(species.imagens.tags).toLowerCase().includes(removeAccents(search).toLowerCase()));
+    const filterSpecies = (species) => {
+        return (
+            removeAccents(species.apelido).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
+            removeAccents(species.resumo).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
+            removeAccents(species.nome_cientifico).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
+            removeAccents(species.texto).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
+            (species.imagens && species.imagens.some(imagem => 
+                imagem.tags && removeAccents(imagem.tags).toLowerCase().includes(removeAccents(search).toLowerCase())
+            ))
+        );
+    };
 
     const filterEquipe = (membro) =>
         removeAccents(membro.nome).toLowerCase().includes(removeAccents(search).toLowerCase()) ||
