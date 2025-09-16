@@ -102,6 +102,7 @@ const Mapa = ({ species, filter }) => {
 
             function adjustPosition(x, y) {
                 x = 39 - x;
+                y = y - 2;
                 return [(x * 15.85) + 148.5, (y * 15.85) + 167];
             }
 
