@@ -22,8 +22,8 @@ const Mapa = ({ species, filter }) => {
             maxZoom: 3,
             zoomSnap: 0.5,
             maxBounds: [
-                [0, -200],
-                [1504, 1480]
+                [0, 0],
+                [1504, 1880]
             ],
         });
 

@@ -10,7 +10,7 @@ export const sections = [
     {
         id: 1,
         title: 'Apresentação do site',
-        content: ["Eeeeste site visa divulgar para o maior número de pessoas os resultados do trabalho que realizamos na Arca do Cerrado, na Universidade Federal de São Carlos.",
+        content: ["Este site visa divulgar para o maior número de pessoas os resultados do trabalho que realizamos na Arca do Cerrado, na Universidade Federal de São Carlos.",
             "A Arca do Cerrado começou como um projeto independente e, em 2018, tornou-se uma Atividade de Extensão, coordenada pelo Prof. Maurício Figueiredo, desenvolvida por um grupo com o principal objetivo de informar e sensibilizar as pessoas para a beleza e a importância do Cerrado - mais especificamente o fragmento onde o câmpus da Universidade Federal de São Carlos está localizado.",
             <img
                 key="Foto1"
@@ -80,7 +80,7 @@ export const sections = [
     {
         id: 3,
         title: 'Histórico',
-        content: ["Desde que chegou a São Carlos, em 2006, o Prof. Maurício costuma visitar o fragmento de Cerrado no câmpus da Universidade Federal de São Carlos aos finais de semana. Maravilhado com as belezas e a riqueza da área, coletava algumas sementes e produzia mudas em sua casa, imaginando poder um dia contribuir para a propagação daquelas espécies.",
+        content: ["Desde que chegou a São Carlos, em 2006, o Prof. Mauricio costuma visitar o fragmento de Cerrado no câmpus da Universidade Federal de São Carlos aos finais de semana. Maravilhado com as belezas e a riqueza da área, coletava algumas sementes e produzia mudas em sua casa, imaginando poder um dia contribuir para a propagação daquelas espécies.",
             "Em 2015, um grupo do qual fazia parte - que ansiava pela conservação do fragmento e realizava algumas ações nessa direção (Coletivo do Cerrado) - organizou um evento: Cerrado Livre. Fez parte de sua programação o plantio de 16 daquelas mudas em uma área sem uso em frente ao Departamento de Computação. Assim, em 13 de maio daquele ano, nascia o Pomar do Cerrado.",
             "Desde então, aos finais de semana, regularmente visitamos o local para fazer capinas, plantar novas mudas e realizar a manutenção da área, que foi ganhando um outro aspecto. Ao longo dos trabalhos, outras atividades se tornaram relevantes, tal como a  divulgação do projeto.",
             "Em fevereiro de 2018, apresentamos o projeto para a Pró-Reitoria de Extensão da universidade e fomos contemplados como Atividade de Extensão, que nomeamos A Arca do Cerrado: jardinagem para a valorização e recuperação do Cerrado.",
@@ -119,7 +119,7 @@ export const sections = [
         id: 6,
         title: 'Participantes',
         content: ["Participam voluntariamente do projeto pessoas de diferentes áreas de conhecimento, formações, profissões, gêneros e idades, com ou sem experiência no trato com as plantas.",
-            "O interesse e a motivação do coordenador do Projeto, Maurício Figueiredo, emergem de sua convicção de que a sociedade deve ser construída de forma integrada e harmônica com a Natureza e assim possibilitar uma vida sinergética com o ambiente que nos rodeia.",
+            "O interesse e a motivação do coordenador do Projeto, Mauricio Figueiredo, emergem de sua convicção de que a sociedade deve ser construída de forma integrada e harmônica com a Natureza e assim possibilitar uma vida sinergética com o ambiente que nos rodeia.",
         ]
     }
 ]
