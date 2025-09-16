@@ -101,7 +101,8 @@ const Mapa = ({ species, filter }) => {
             );
 
             function adjustPosition(x, y) {
-                return [(y * 15.85) + 167, (x * 15.85) + 148.5];
+                y = 39 - y; // Ajustando porque o sentido está invertido no mapa
+                return [(x * 15.85) + 148.5, (y * 15.85) + 167];
             }
 
             const customIcon = L.icon({
