@@ -46,3 +46,6 @@ Backend/Arca/.env
 .env
 
 Arca-do-Cerrado-backend/
+
+# Instruções para logar na máquina
+deployInstructions.txt
