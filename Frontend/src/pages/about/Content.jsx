@@ -10,7 +10,7 @@ export const sections = [
     {
         id: 1,
         title: 'Apresentação do site',
-        content: ["Eeste site visa divulgar para o maior número de pessoas os resultados do trabalho que realizamos na Arca do Cerrado, na Universidade Federal de São Carlos.",
+        content: ["Este site visa divulgar para o maior número de pessoas os resultados do trabalho que realizamos na Arca do Cerrado, na Universidade Federal de São Carlos.",
             "A Arca do Cerrado começou como um projeto independente e, em 2018, tornou-se uma Atividade de Extensão, coordenada pelo Prof. Maurício Figueiredo, desenvolvida por um grupo com o principal objetivo de informar e sensibilizar as pessoas para a beleza e a importância do Cerrado - mais especificamente o fragmento onde o câmpus da Universidade Federal de São Carlos está localizado.",
             <img
                 key="Foto1"
